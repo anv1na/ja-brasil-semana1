@@ -1,0 +1,109 @@
+:root{
+    /*Variáveis css*/
+    --color-background: #000000; 
+    --color-title-text: #FFEDEB;
+    --color-light-title: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html,
+body {
+    height: 100vh;
+}
+
+body{
+    background-color: var(--color-background);
+    align-items: center;
+    justify-content: center;
+} 
+
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 98.56px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1480px;
+    top: 5px;
+}
+
+img{
+    position: absolute;
+    width: 1171px;
+    height: 380px;
+    left: 0px;
+    top: 235px;
+}
+
+.simbolo img{
+    position: absolute;
+    width: 148px;
+    height: 194px;
+    left: 1280px;
+    top: 338px;
+}
+
+.caroussel, h1{
+    position: absolute;
+    width: 849px;
+    height: 219px;
+    left: 87px;
+    top: 340px;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    
+    color: var( --color-title-text);
+}
+
+.carrousel p{
+    position: absolute;
+    width: 977px;
+    height: 219px;
+    left: 87px;
+    top: 465px;
+    align-items: center;
+    justify-content: center;
+    
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 49px;
+
+    color: var( --color-title-text);
+} 
+
+.frase{
+    position: absolute;
+    width: 571px;
+    height: 66px;
+    left: 458px;
+    top: 675px;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 33px;
+    color: var( --color-title-text);
+}
+
+
+
+
